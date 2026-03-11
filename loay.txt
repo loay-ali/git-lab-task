@@ -1,0 +1,9 @@
+git clone https://github.com/loay-ali/git-lab-task.git
+git checkout -b loay-branch
+
+git add .
+git commit -m "Add Loay Data In README File"
+git -u origin loay-branch
+
+git pull
+git merge origin/main
