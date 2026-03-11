@@ -1,0 +1,9 @@
+// git clone https://github.com/loay-ali/git-lab-task.git
+// git checkout -b kareem-branch
+// git status
+// git add .
+// git commit -m "add kareem data to "
+// git push origin kareem-branch
+// git pull origin
+// git merge origin/main
+
