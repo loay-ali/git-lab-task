@@ -1,0 +1,109 @@
+# Bassant Hosssny
+## I love Javascript
+
+
+======================================================================
+
+PS C:\Users\bassa\OneDrive\Documents\Git-hub>  git clone https://github.com/loay-ali/git-lab-task.git
+Cloning into 'git-lab-task'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+PS C:\Users\bassa\OneDrive\Documents\Git-hub> cd project 
+cd : Cannot find path 'C:\Users\bassa\OneDrive\Documents\Git-hub\project' because it does 
+not exist.
+At line:1 char:1
++ cd project
++ ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\bassa\...Git-hub\project:String)   
+   [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationComma  
+   nd
+
+PS C:\Users\bassa\OneDrive\Documents\Git-hub> cd git-lab-task
+
+PS C:\Users\bassa\OneDrive\Documents\Git-hub\git-lab-task> git checkout -b branch-bassant
+Switched to a new branch 'branch-bassant'
+PS C:\Users\bassa\OneDrive\Documents\Git-hub\git-lab-task> git branch
+* branch-bassant
+  main
+PS C:\Users\bassa\OneDrive\Documents\Git-hub\git-lab-task> git add .
+PS C:\Users\bassa\OneDrive\Documents\Git-hub\git-lab-task> git commit -m "Add new information"
+[branch-bassant c447fe2] Add new information
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+PS C:\Users\bassa\OneDrive\Documents\Git-hub\git-lab-task> git push origin branch-bassant
+remote: Permission to loay-ali/git-lab-task.git denied to bassant-hh.
+fatal: unable to access 'https://github.com/loay-ali/git-lab-task.git/': The requested URL returned error: 403
+PS C:\Users\bassa\OneDrive\Documents\Git-hub\git-lab-task> git push origin branch-bassant
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 306 bytes | 102.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: 
+remote: Create a pull request for 'branch-bassant' on GitHub by visiting:
+remote:      https://github.com/loay-ali/git-lab-task/pull/new/branch-bassant
+remote:
+To https://github.com/loay-ali/git-lab-task.git
+ * [new branch]      branch-bassant -> branch-bassant
+PS C:\Users\bassa\OneDrive\Documents\Git-hub\git-lab-task> 
+
+=====================================================================
+
+
+PS C:\Users\bassa\OneDrive\Documents\Git-hub> cd git-lab-task
+PS C:\Users\bassa\OneDrive\Documents\Git-hub\git-lab-task> git pull
+remote: Enumerating objects: 32, done.
+remote: Counting objects: 100% (32/32), done.
+remote: Compressing objects: 100% (20/20), done.
+remote: Total 28 (delta 5), reused 8 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (28/28), 9.05 KiB | 71.00 KiB/s, done.
+From https://github.com/loay-ali/git-lab-task
+ * [new branch]      esraa-branch  -> origin/esraa-branch
+ * [new branch]      kareem-branch -> origin/kareem-branch
+ * [new branch]      loay-branch   -> origin/loay-branch
+   99af3ae..bd2cb4a  main          -> origin/main
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> branch-bassant
+
+PS C:\Users\bassa\OneDrive\Documents\Git-hub\git-lab-task> git merge main 
+Already up to date.
+
+
+
+
+PS C:\Users\bassa\OneDrive\Documents\Git-hub\git-lab-task> git reset
+Unstaged changes after reset:
+M       README.md
+PS C:\Users\bassa\OneDrive\Documents\Git-hub\git-lab-task> git restore *
+PS C:\Users\bassa\OneDrive\Documents\Git-hub\git-lab-task> git merge 
+fatal: No remote for the current branch.
+PS C:\Users\bassa\OneDrive\Documents\Git-hub\git-lab-task> git merge main 
+Already up to date.
+PS C:\Users\bassa\OneDrive\Documents\Git-hub\git-lab-task> git merge/main 
+git: 'merge/main' is not a git command. See 'git --help'.
+PS C:\Users\bassa\OneDrive\Documents\Git-hub\git-lab-task> git merge origin/main 
+Updating c447fe2..bd2cb4a
+Fast-forward
+git: 'merge/main' is not a git command. See 'git --help'.
+PS C:\Users\bassa\OneDrive\Documents\Git-hub\git-lab-task> git merge origin/main
+Updating c447fe2..bd2cb4a
+Fast-forward
+PS C:\Users\bassa\OneDrive\Documents\Git-hub\git-lab-task> git merge origin/main
+Updating c447fe2..bd2cb4a
+Fast-forward
+Updating c447fe2..bd2cb4a
+Fast-forward
+Fast-forward
+ README.md | 14 ++++++++++++--
+ 1 file changed, 12 insertions(+), 2 deletions(-)
+PS C:\Users\bassa\OneDrive\Documents\Git-hub\git-lab-task>
