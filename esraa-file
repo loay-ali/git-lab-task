@@ -1,0 +1,12 @@
+#Esraa 
+
+PS C:\Users\esram> cd git-lab-task
+PS C:\Users\esram\git-lab-task> git branch
+* esraa-branch
+  main
+PS C:\Users\esram\git-lab-task> git add .
+PS C:\Users\esram\git-lab-task> git add README.md
+PS C:\Users\esram\git-lab-task> git commit "add my file"
+PS C:\Users\esram\git-lab-task> git push origin esraa-branch
+PS C:\Users\esram\git-lab-task> git merge origin/main
+PS C:\Users\esram\git-lab-task> echo > esraa-file
